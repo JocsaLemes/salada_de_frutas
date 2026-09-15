@@ -7,6 +7,7 @@
 
  */
 import 'package:flutter/material.dart';
+import 'package:salada_de_frutas/home.dart';
 
 class Login extends StatefulWidget {
   const Login({super.key});
@@ -127,6 +128,9 @@ class _LoginState extends State<Login> {
                         ScaffoldMessenger.of(
                           context,
                         ).showSnackBar(SnackBar(content: Text("Login de boa")));
+                        Navigator.push(
+                          context, MaterialPageRoute(
+                            builder: (context) => Home()));
                       } else {
                         ScaffoldMessenger.of(
                           context,
