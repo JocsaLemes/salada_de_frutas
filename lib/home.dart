@@ -342,7 +342,7 @@ class _HomeState extends State<Home> {
                     decoration: BoxDecoration(
                       boxShadow: [BoxShadow(color: Colors.black45, blurRadius: 7, spreadRadius: -3,offset: Offset(5, 5))],
                       borderRadius: BorderRadius.circular(10),
-                      color: const Color.fromARGB(255, 255, 186, 137),
+                      color: const Color.fromARGB(255, 137, 255, 161),
                     
                     ),
                     child: Center(
