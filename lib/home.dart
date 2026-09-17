@@ -409,12 +409,7 @@ class _HomeState extends State<Home> {
               Container(child: Image.asset("")),
             ],
           ),
-          ElevatedButton(
-            onPressed: () {
-              Navigator.pop(context);
-            },
-            child: Text("Sair"),
-          ),
+          
         ],
       ),
     );

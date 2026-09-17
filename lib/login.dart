@@ -128,9 +128,7 @@ class _LoginState extends State<Login> {
                         ScaffoldMessenger.of(
                           context,
                         ).showSnackBar(SnackBar(content: Text("Login de boa")));
-                        Navigator.push(
-                          context, MaterialPageRoute(
-                            builder: (context) => Home()));
+                       
                       } else {
                         ScaffoldMessenger.of(
                           context,
