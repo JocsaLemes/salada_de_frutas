@@ -394,8 +394,26 @@ class _HomeState extends State<Home> {
                 ),],
             ),
           ),
-          Text("Receitas em destaque"),
-          Container(child: Image.asset("")),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(15, 20, 0, 0),
+            child: Row(
+              children: [
+                Text("Receitas em destaque"),
+              ],
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(15,20,15,0),
+            child: Container(
+              width: double.infinity,
+              height: 200,
+              decoration: BoxDecoration(
+                color: Colors.amber,
+                borderRadius: BorderRadius.circular(15),
+              ),              
+              //child: Image.asset("")
+              ),
+          ),
           Row(
             children: [
               Text("Mais populares"),
