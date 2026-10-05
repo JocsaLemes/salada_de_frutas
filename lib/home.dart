@@ -409,16 +409,20 @@ class _HomeState extends State<Home> {
               height: 200,
               decoration: BoxDecoration(
                 color: Colors.amber,
-                borderRadius: BorderRadius.circular(15),
+                borderRadius: BorderRadius.circular(25),
               ),              
-              //child: Image.asset("")
+              child: Image.asset("assets/img/strogonoff.jpg",fit: BoxFit.cover,)
               ),
           ),
-          Row(
-            children: [
-              Text("Mais populares"),
-              TextButton(onPressed: () {}, child: Text("Ver todas")),
-            ],
+          Padding(
+            padding: const EdgeInsets.fromLTRB(15, 20, 15, 0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text("Mais populares"),
+                TextButton(onPressed: () {}, child: Text("Ver todas")),
+              ],
+            ),
           ),
           Row(
             children: [

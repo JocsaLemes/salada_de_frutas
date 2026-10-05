@@ -61,6 +61,10 @@ flutter:
   assets:
     - assets/img/img_01_SF.png
     - assets/img/chef-hat.png
+    - assets/img/strogonoff.jpg
+    - assets/img/espia.png
+    - assets/img/nao_espia.png
+    - assets/img/padrao.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

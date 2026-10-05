@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:salada_de_frutas/buscar.dart';
 import 'package:salada_de_frutas/home.dart';
 import 'package:salada_de_frutas/login.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const Home(),
+      home: const Login(),
     );
   }
 }
